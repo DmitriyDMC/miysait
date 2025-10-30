@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <div class="container">
+      <div class="author-info">
+        <img src="img/avtor.jpg" alt="Фото автора" class="author-photo" />
+        <div class="author-details">
+          <h1>Про автора</h1>
+          <p>
+            Навчаюся у Житомирському державному університеті імені Івана Франка.
+            намагаюся також це поєднувати зі своїм місцем роботи, а працюю я у
+            бібліотеціцьогож університету.Іноді полюбляю дивитися психологічні
+            ролики, також читаю книги.
+          </p>
+          <br />
+          <h1>Освіта</h1>
+          <p>
+            1)Закінчив миропільський ліцей №1, вчився там сумліно і старано,
+            брав активну участь у шкільних заходах, також не одноразово приймав
+            участь у олімпіадах з інформатики.
+            <br />2)Зараз навчаюся на 3 курсі бакалаврату Житомирського
+            державного університету імені Івана Франка.
+          </p>
+
+          <!-- Галерея зображень -->
+          <div class="gallery-section">
+            <h1>Сертифікати</h1>
+            <div class="gallery-container">
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert1.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert2.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert3.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert4.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert5.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert6.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert7.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert8.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="img/sertificat/sert9.png"
+                  alt="сертифікат"
+                  onclick="openModal(this)"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div id="imageModal" class="modal" onclick="closeModal()">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage" />
+            <div class="caption" id="modalCaption"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="jav.js"></script>
+  </body>
+</html>
