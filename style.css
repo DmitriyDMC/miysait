@@ -113,7 +113,8 @@ nav ul li a:hover {
 h1 {
     text-align: center;
     color: #333;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 h2 {
@@ -285,21 +286,27 @@ h2 {
 
 
 .cont-inf {
-    display: flex;
-    align-items: center;
     margin: auto;
-    flex-direction: row;
     background: white;
     padding: 30px;
     border-radius: 10px;
     width: 900px;
-    text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding-left: 55px;
-    gap: 20px;
-    
 }
+.bloc-fot{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.bloc-cont{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 
+}
 .contact{
     width: 250px;
     border: #333 solid;
